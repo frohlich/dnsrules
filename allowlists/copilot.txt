@@ -1,0 +1,26 @@
+! GitHub Copilot / GitHub allowlist for AdGuard Home
+! DNS-level allowlist: URL paths are not supported, only domains/hostnames.
+
+@@||github.com^
+@@||api.github.com^
+@@||copilot-telemetry.githubusercontent.com^
+@@||collector.github.com^
+@@||default.exp-tas.com^
+@@||copilot-proxy.githubusercontent.com^
+@@||origin-tracker.githubusercontent.com^
+
+! GitHub Copilot service domains
+@@||githubcopilot.com^
+@@||individual.githubcopilot.com^
+@@||business.githubcopilot.com^
+@@||enterprise.githubcopilot.com^
+
+! If you specifically need all subdomains too, keep these wildcard rules:
+@@||*.githubcopilot.com^
+@@||*.individual.githubcopilot.com^
+@@||*.business.githubcopilot.com^
+@@||*.enterprise.githubcopilot.com^
+
+! Copilot usage metrics report downloads
+@@||b01.azurefd.net^
+@@||copilot-reports-*.b01.azurefd.net^
